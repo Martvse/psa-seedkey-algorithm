@@ -11,6 +11,11 @@
 | AIO_CRONY | DFD7 |
 | AIO_CRONY2 | D904 |
 
+### CD Charger (CDC)
+| ECU | KEY |
+|--|--|
+| CDE | C2CF |
+
 ### Screen (EMF)
 | ECU | KEY |
 |--|--|
@@ -67,7 +72,8 @@
 | BSI_2010 (CONTINENTAL) | C318 |
 | BSI_EV (DELPHI) | B201 |
 | BSI_EV | B001 |
-| BSI | B2B2 |
+| BSI (VALEO) | B2B2 |
+| BSI (JCAE) | B0B0 |
 
 ### Engine ECU
 | ECU | KEY |
@@ -98,6 +104,7 @@
 | MD1CS003 E6.3/E6.4 | 4454 |
 | ME745 | F8F3 |
 | ME747 | E45F / E503 |
+| ME749 (E85) | FFE4 |
 | ME749 | A83F |
 | MED17_4 | 1605 |
 | MED17_4_2 | 0503 |
@@ -128,13 +135,15 @@
 ### Electric Engine ECUs
 | ECU | KEY |
 |--|--|
+| CMM_MG1CS051_MHEV | 0302 |
 | CMM_MG1CS042_PHEV | 2508 |
 | RMCU_PHEV | 0507 |
 | MCU_PHEV | 2104 |
 | OBC_DCDC_PHEV | 0208 |
 | OBC_DCDC_ECMP | 1985 |
 | VCU_EMS8000 | 7002 |
-| TBMU_PHEV | 21B8 |
+| TBMU_PHEV (ACC cells) | 21B8 |
+| TBMU_PHEV (BYD cells) | B58A |
 
 ## Power
 | ECU | KEY |
